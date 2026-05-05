@@ -1,0 +1,93 @@
+{
+    "alpha": 0.25,
+    "best_model": "./base/result_model\\ctu_ins_maskrcnn_resnet18\\ctu_best.npz",
+    "class_id": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "class_names": [
+        {
+            "id": 1,
+            "name": "\u9ed1\u5706",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 2,
+            "name": "\u9ed1\u692d\u5706",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 3,
+            "name": "\u8d6d\u5706",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 4,
+            "name": "\u767d\u5706",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 5,
+            "name": "\u571f\u5706",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 6,
+            "name": "\u9c7c\u809d\u6cb9",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 7,
+            "name": "\u68d5\u767d\u80f6\u56ca",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 8,
+            "name": "\u68d5\u68d5\u80f6\u56ca",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 9,
+            "name": "\u84dd\u767d\u80f6\u56ca",
+            "supercategory": "Cancer"
+        },
+        {
+            "id": 10,
+            "name": "\u767d\u692d\u5706",
+            "supercategory": "Cancer"
+        }
+    ],
+    "classes_names": [
+        "__background__",
+        "\u9ed1\u5706",
+        "\u9ed1\u692d\u5706",
+        "\u8d6d\u5706",
+        "\u767d\u5706",
+        "\u571f\u5706",
+        "\u9c7c\u809d\u6cb9",
+        "\u68d5\u767d\u80f6\u56ca",
+        "\u68d5\u68d5\u80f6\u56ca",
+        "\u84dd\u767d\u80f6\u56ca",
+        "\u767d\u692d\u5706"
+    ],
+    "count_params": 910013,
+    "final_model": "./base/result_model\\ctu_ins_maskrcnn_resnet18\\ctu_final.npz",
+    "max_size": 1000,
+    "mean": [
+        123.15163084,
+        115.90288257,
+        103.0626238
+    ],
+    "min_size": 600,
+    "model_name": "maskrcnn_resnet18",
+    "roi_align": true,
+    "train_data": "./base/result_model\\ctu_ins_maskrcnn_resnet18\\ctu_result\\train_data"
+}
